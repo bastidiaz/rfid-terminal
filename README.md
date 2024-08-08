@@ -13,4 +13,6 @@ Format for each card record:
 > 
 > ``Origin   [STRING VALUE or EMPTY]`` *The value here must be either a string or simply an empty space after the tab spaces*
 
+A `server_log.txt` file is also created at the initial run of the server. All transactions and requests are logged into this file.
+
 I have provided a sample terminal/client code for MFRC522 and other RFID RC522-based modules as well as a sample `db` folder.
