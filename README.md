@@ -15,4 +15,6 @@ Format for each card record:
 
 A `server_log.txt` file is also created at the initial run of the server. All transactions and requests are logged into this file.
 
-I have provided a sample terminal/client code for MFRC522 and other RFID RC522-based modules as well as a sample `db` folder.
+I have provided a sample terminal/client code (`sample_client.ino`)for MFRC522 and other RFID RC522-based modules as well as a sample `db` folder. Flash/upload the code to an appropriate System on a Chip (SoC) microcontroller with Wi-Fi capabilities, like an ESP32. You need to configure the server IP, port, and Wi-Fi credentials in the code beforehand, as well as downloading the necessary libraries.
+
+There is also a Python client simulation included (`client_sim.py`). You may have to configure the server IP and port in the script before running as well as following the suggestiont to create multiple variations of the script to simulate multiple users from different locations. Simply run using `python client_sim.py`, `python3 client_sim.py`, or `py client_sim.py`.
